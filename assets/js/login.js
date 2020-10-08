@@ -61,7 +61,7 @@ $(function() {
 
 
     //登录功能
-    $("#form_reg").sbumit(function(e) {
+    $("#form_login").submit(function(e) {
         //阻止表单默认提交
         e.preventDefault();
         //发送ajax
